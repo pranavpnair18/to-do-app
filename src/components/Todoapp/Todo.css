@@ -1,0 +1,85 @@
+body{
+  background-image: linear-gradient(#fff200, #000000);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.todo-cont{
+    background-color: black;
+    width: 70vh;
+    margin: 5rem auto;
+    color: white;
+    border-radius: 12px;
+    padding: 15px;
+}
+.header{
+    
+    padding: 10px;
+    font-size: 1.5em;
+}
+.input-cont{
+    background-color: black;
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    
+    border: 2px solid yellow;
+    border-radius: 10px;
+}
+.input{
+    font-size: 1.2em;
+    text-align: left;
+    font-weight: bold;
+    
+    margin: 1em;
+    width: 74%;
+    border: 1px solid black;
+    border-radius: 12px;
+    color: black;
+    flex: 1;
+    margin-right: 10px;
+}
+.bttnn{
+  background-image: linear-gradient(#fff200, #97951d);
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 12px;
+    margin-left: -8px;
+    flex-shrink: 0;
+
+    
+}
+@media (max-width: 576px) {
+    .input-cont {
+      flex-direction: column;
+    }
+  
+    .input {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .bttnn {
+      width: 80%;
+    }
+    .lst{
+      max-width: 600px;
+    }
+  }
+.lst{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: yellow;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    padding-left: 4%;
+    max-width: 500px;
+}
+.delb{
+    background:black;
+    color: yellow;
+    border: 2px solid yellow;
+    cursor: pointer;
+}
